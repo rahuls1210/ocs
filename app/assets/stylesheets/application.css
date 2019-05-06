@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require style
+ *= require_tree .
+ *= require_self
+ */
+ body{
+    background-color: white
+ }
+ .container{
+  width:100%;
+  margin: 54px 0px 0px 6px;
+  
+
+ }
+ .imagesize{
+
+    width:30%;
+    height:2%
+ }
+ .dropdownside{
+    width: 40%;
+    float : left;
+ }
+ .imageside{
+    width: 60%;
+    float : left;
+ }
+ .myGallery .carousel-indicators img {
+    max-width: 18.25rem;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+ol{
+    width:100%;
+}
+.myGallery .carousel-indicators li {
+    height: auto;
+    width: 18.25rem;
+    max-width: 18.25rem;
+    border: none;
+    margin:5px;
+}
+.w-100 {
+    width: 100%!important;
+}
+.d-block {
+    display: block!important;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    content: "";
+}
+.carousel-indicators li::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    content: "";
+}
+.myGallery .carousel-indicators {
+    margin-left: 27.31rem;
+    margin-bottom: -14rem;
+    position: absolute;
+} 
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+}
+.carousel-control-prev {
+    left: 0;
+}
+.carousel-control-next {
+    right: 0;
+} 
+#shingleName{
+
+    text-transform: uppercase
+}  
